@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap');
+
+
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background-color: #EDEEF0;
+}
+
+/* DRY - Dont Repeat Yourself*/
+
+/* 
+
+logo text
+nav-link text
+smaller header text
+larger text in header (h1)
+bio heading (h2)
+portfolio, skills, contact (h3)
+h4 tag
+regular text
+
+*/
+
+.logo_text{
+    font-size: 3em;
+    font-weight: 700;
+    color: #F05136;
+}
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration:none;
+    color: black;
+}
+
+.nav-link:hover{
+    color: #F05136
+}
+
+header div p {
+    font-size:2.5em;
+    font-weight:200;
+}
+
+h1,h2,h3,h4{
+    font-weight:800;
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+     font-size: 4em;       
+}
+
+h3{
+     font-size: 2.5em;          
+}
+
+h4{
+     font-size: 1.8em;             
+}
+
+.link-button{
+
+    text-decoration: none;
+    text-align: center;
+    background: #F05136;
+    cursor:pointer;
+    font-weight:200;
+    letter-spacing:0.5px;
+    color:white;
+
+}
+
+.link-button:hover{
+    color:white;
+}
